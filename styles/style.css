@@ -27,6 +27,7 @@
     list-style: circle;
 }
 
+
 .header__links-list li:hover {
     list-style-type: none;
 }
@@ -126,51 +127,105 @@ address {
     word-spacing: 1.2em;
 }
 
-button {
+.bet-button button {
     background-color: transparent;
     border: 1px solid rgb(255, 255, 255, 0.7);
     color: white;
     font-size: 22px;
     font-weight: 500;
     padding: 12px 30px;
+    margin-left: 60px;
+    transition: all 500ms ease;
 }
 
-.bet-button {
-    padding-left: 60px;
+.bet-button button:hover {
+    background-color: white;
+    color: black;
 }
 
 .lots__heading {
     display: flex;
-    font-size: 30px;
+    font-size: 28px;
     justify-content: flex-start;
+    padding-top: 179px;
+    padding-bottom: 27px;
+    padding-left: 40px;
+}
+
+.lots__card-list {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    list-style-type: none;
 }
 
 .card__img {
+    display: flex;
     width: 334px;
     height: 563px;
     top: 74px;
     background-size: cover;
+    object-fit: cover;
 }
 
-.lots__card-list {
-    list-style-type: none;
+.card-link {
+    text-decoration: none;
 }
 
 .card__title {
+    color: white;
     width: 254px;
-    height: 82px;
-    top: 125px;
-    left: 40px;
-    gap: 0px;
-    opacity: 0px;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
 .card__text {
+    color: rgb(255, 255, 255, 0.7);
+    ;
     width: 254px;
-    height: 144px;
     top: 445px;
     left: 40px;
-    gap: 0px;
-    opacity: 0px;
+    font-size: 20px;
+}
 
+.overlay__section-second {
+    width: 334px;
+    height: 563px;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+}
+
+.card {
+    position: absolute;
+    top: 0;
+    padding: 50px 40px;
+}
+
+.card_type_film {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 563px;
+
+}
+
+.card_type_picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 563px;
+
+}
+
+.lots__look-more {
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    height: 25px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 39px;
 }
