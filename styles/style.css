@@ -1,342 +1,334 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    padding: 116px 0px 91px 0px;
+  display: flex;
+  justify-content: space-between;
+  padding: 91px 0px 91px 0px;
 }
 
 .header__left-block {
-    display: flex;
-    align-items: center;
-    gap: 44px;
-    padding-left: 60px;
+  display: flex;
+  align-items: center;
+  gap: 44px;
+  padding-left: 60px;
 }
 
 .header__logo {
-    width: 148px;
+  width: 148px;
 }
 
 .header__logo-image {
-    width: 91%;
+  width: 91%;
 }
 
 .header__links-list {
-    display: flex;
-    flex-direction: row;
-    gap: 28px;
-    font-size: 18px;
-    list-style: circle;
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+  font-size: 18px;
+  list-style: circle;
 }
 
-
 .header__links-list li:hover {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .header__links-list li:hover a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 address {
-    font-style: normal;
+  font-style: normal;
 }
 
 .header__address-block {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    position: relative;
-    top: 5px;
-    padding-right: 89px;
-    font-size: 20px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+  top: 5px;
+  padding-right: 89px;
+  font-size: 20px;
 }
 
 .header_address {
-    width: 200px;
+  width: 200px;
 }
 
 .cover__wrapper {
-    position: relative;
-    height: 757px;
+  position: relative;
+  height: 757px;
 }
 
 .main__img-cover {
-    width: 100%;
-    height: 757px;
-    position: absolute;
+  width: 100%;
+  height: 757px;
+  position: absolute;
 }
 
 .overlay {
-    width: 1100px;
-    height: 757px;
-    background-color: black;
-    opacity: 0.6;
-    position: absolute;
+  width: 1100px;
+  height: 757px;
+  background-color: black;
+  opacity: 0.6;
+  position: absolute;
 }
 
 .cover__title {
-    color: white;
-    position: absolute;
-    font-size: 65px;
-    line-height: 100px;
-    letter-spacing: 0.5em;
-    position: relative;
-    top: 150px;
-
+  color: white;
+  font-size: 65px;
+  line-height: 100px;
+  letter-spacing: 0.5em;
+  position: relative;
+  top: 150px;
 }
 
 .cover__title-wrapper {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .aligned-text {
-    display: block;
-    line-height: 1.5em;
-    letter-spacing: 0.3em;
-    text-align: left;
-    padding-left: 53px;
+  display: block;
+  line-height: 1.5em;
+  letter-spacing: 0.3em;
+  text-align: left;
+  padding-left: 53px;
 }
 
 .aligned-text_center {
-    display: block;
-    line-height: 1.3em;
-    letter-spacing: 0.3em;
-    text-align: center;
-    position: relative;
-    bottom: 10px;
+  display: block;
+  line-height: 1.3em;
+  letter-spacing: 0.3em;
+  text-align: center;
+  position: relative;
+  bottom: 10px;
 }
 
 .aligned-text_right {
-    display: block;
-    line-height: 1.3em;
-    letter-spacing: 0.3em;
-    text-align: right;
-    position: relative;
-    right: 30px;
-    bottom: 16px;
+  display: block;
+  line-height: 1.3em;
+  letter-spacing: 0.3em;
+  text-align: right;
+  position: relative;
+  right: 30px;
+  bottom: 16px;
 }
 
 .letter-spacing-extended {
-    letter-spacing: 0.6em;
+  letter-spacing: 0.6em;
 }
 
 .cover__description {
-    color: white;
-    display: flex;
-    position: absolute;
-    bottom: 50px;
-    left: 60px;
-    align-items: center;
+  color: white;
+  display: flex;
+  position: absolute;
+  bottom: 50px;
+  left: 60px;
+  align-items: center;
 }
 
 .cover__description-text {
-    display: block;
-    font-size: 21px;
-    font-weight: 400;
-    word-spacing: 1.0em;
-    margin-left: 22px;
+  display: block;
+  font-size: 21px;
+  font-weight: 400;
+  word-spacing: 1em;
+  margin-left: 22px;
 }
 
 .bet-button button {
-    background-color: transparent;
-    border: 1px solid rgb(255, 255, 255, 0.7);
-    color: white;
-    font-size: 22px;
-    font-weight: 500;
-    padding: 12px 30px;
-    margin-left: 84px;
-    transition: all 500ms ease;
+  background-color: transparent;
+  border: 1px solid rgb(255, 255, 255, 0.7);
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  padding: 12px 30px;
+  margin-left: 84px;
+  transition: all 500ms ease;
 }
 
 .bet-button button:hover {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 
 .lots__heading {
-    display: flex;
-    font-size: 28px;
-    justify-content: flex-start;
-    padding-top: 180px;
-    padding-bottom: 27px;
-    padding-left: 61px;
+  display: flex;
+  font-size: 28px;
+  justify-content: flex-start;
+  padding-top: 180px;
+  padding-bottom: 27px;
+  padding-left: 61px;
 }
 
 .lots__card-list {
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    list-style-type: none;
-    margin-left: 10px;
-    margin-right: 10px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  list-style-type: none;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .card__img {
-    display: flex;
-    width: 334px;
-    height: 563px;
-    top: 74px;
-    background-size: cover;
-    object-fit: cover;
+  display: flex;
+  width: 334px;
+  height: 563px;
+  top: 74px;
+  background-size: cover;
+  object-fit: cover;
 }
 
 .card-link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .card__title {
-    color: white;
-    width: 254px;
-    font-size: 22px;
-    text-transform: uppercase;
-    text-decoration: underline;
+  color: white;
+  width: 254px;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-decoration: underline;
 }
 
 .card__text {
-    color: rgb(255, 255, 255, 0.7);
-    width: 254px;
-    top: 445px;
-    left: 40px;
-    font-size: 20px;
+  color: rgb(255, 255, 255, 0.7);
+  width: 254px;
+  top: 445px;
+  left: 40px;
+  font-size: 20px;
 }
 
 .overlay__section-second {
-    width: 334px;
-    height: 563px;
-    background-color: black;
-    opacity: 0.6;
-    position: absolute;
+  width: 334px;
+  height: 563px;
+  background-color: black;
+  opacity: 0.6;
+  position: absolute;
 }
 
 .card {
-    position: absolute;
-    top: 0;
-    padding: 50px 40px;
+  position: absolute;
+  top: 0;
+  padding: 50px 40px;
 }
 
 .card_type_film {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 563px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 563px;
 }
 
 .card_type_picture {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 563px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 563px;
 }
 
 .lots__look-more-link {
-    display: block;
-    font-size: 20px;
-    font-weight: 500;
-    display: flex;
-    height: 25px;
-    justify-content: flex-start;
-    align-items: center;
-    padding-top: 40px;
-    padding-left: 64px;
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  height: 25px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 29px;
+  margin-left: 64px;
 }
 
 .lots__look-more-link:hover {
-    list-style-type: none;
-    text-decoration: none;
-    color: rgb(0, 0, 0, 0.5) ;
+  list-style-type: none;
+  text-decoration: none;
+  color: rgb(0, 0, 0, 0.5);
 }
 
-
 .about__column {
-    display: flex;
-    flex-direction: row;
-    margin-top: 195px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 180px;
 }
 
 .about__logo {
-    margin-left: 71px;
-    padding: 66px 52px;
-    width: 238px;
-    height: 238px;
-    background-color: black;
-    border-radius: 50%;
+  margin-left: 71px;
+  padding: 66px 52px;
+  width: 238px;
+  height: 238px;
+  background-color: black;
+  border-radius: 50%;
 }
 
 .about__logo-image {
-    width: 140px;
+  width: 140px;
 }
 
 .about__all-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-left: 72px;
-    margin-top: 98px
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 72px;
+  margin-top: 98px;
 }
 
 .about__title {
-    text-transform: uppercase;
-    font-size: 27px;
-    font-weight: 700;
-    padding-bottom: 100px;
+  text-transform: uppercase;
+  font-size: 27px;
+  font-weight: 700;
+  padding-bottom: 100px;
 }
 
 .about__text {
-    font-size: 20px;
-    letter-spacing: 0.01em;
-    padding-right: 40px;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  padding-right: 40px;
 }
 
 .about__text-second-paragraph {
-    padding-top: 28px;
-    padding-right: 15px;
+  padding-top: 28px;
+  padding-right: 15px;
 }
-
 
 .footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 183px 50px 91px 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 185px 50px 91px 50px;
 }
 
-
 .footer__address-block {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    padding-right: 89px;
-    font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-right: 89px;
+  font-size: 20px;
 }
 
 .footer_address {
-    width: 200px;
+  width: 200px;
 }
 
-
 .footer__menu-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 3px;
-    font-size: 18px;
-    list-style: none;
-    padding-right: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  font-size: 18px;
+  list-style: none;
+  padding-right: 52px;
 }
 
 .footer__menu-list li:hover {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .footer__menu-list li:hover a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .footer__social-list {
-    display: flex;
-    gap: 48px;
+  display: flex;
+  gap: 48px;
 }
 
 .footer__social-icon {
-    width: 48px;
-    height: 48px;
+  width: 48px;
+  height: 48px;
 }
