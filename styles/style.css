@@ -289,6 +289,7 @@ address {
 .about__text {
   font-size: 20px;
   letter-spacing: 0.01em;
+  margin-right: 24px;
 }
 
 .about__text-bottom-paragraph {
@@ -298,7 +299,7 @@ address {
 .footer {
   display: flex;
   justify-content: space-between;
-  margin: 181px 50px 83px 50px;
+  margin: 181px 50px 87px 50px;
 }
 
 .footer__address-block {
