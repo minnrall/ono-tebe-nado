@@ -209,8 +209,8 @@ address {
   justify-content: space-between;
   position: relative;
   height: 563px;
-  background-image: url(../images/card-lot-01.jpg);
-  background-size: auto 563px;
+  background: url("../images/card-lot-01.jpg") center / cover no-repeat;
+  z-index: 2;
 }
 
 .card_type_book {
@@ -219,8 +219,8 @@ address {
   justify-content: space-between;
   position: relative;
   height: 563px;
-  background-image: url(../images/card-lot-02.jpg);
-  background-size: auto 563px;
+  background: url("../images/card-lot-02.jpg") center / cover no-repeat;
+  z-index: 2;
 }
 
 .card_type_picture {
@@ -229,8 +229,8 @@ address {
   flex-direction: column;
   justify-content: space-between;
   height: 563px;
-  background-image: url(../images/card-lot-03.jpg);
-  background-size: auto 563px;
+  background: url("../images/card-lot-03.jpg") center / cover no-repeat;
+  z-index: 2;
 }
 
 .lots__look-more-link {
