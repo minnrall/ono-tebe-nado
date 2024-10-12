@@ -294,14 +294,14 @@ address {
 }
 
 .about__text-bottom-paragraph {
-  padding-top: 27px;
+  padding-top: 25px;
   padding-right: 17px;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
-  margin: 218px 50px 91px 50px;
+  margin:  179px 47px 0px 52px;
 }
 
 .footer__address-block {
@@ -333,7 +333,7 @@ address {
 
 .footer__social-list {
   display: flex;
-  gap: 48px;
+  gap: 49px;
 }
 
 .footer__social-icon {
