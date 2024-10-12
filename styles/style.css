@@ -301,7 +301,7 @@ address {
 .footer {
   display: flex;
   justify-content: space-between;
-  margin:  179px 47px 0px 52px;
+  margin:  179px 47px 88px 52px;
 }
 
 .footer__address-block {
