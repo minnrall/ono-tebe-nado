@@ -13,8 +13,8 @@
 .header__logo {
   width: 146px;
   position: relative;
-  right: 94px;
-  bottom: 2px;
+  right: 95px;
+  bottom: 1px;
 }
 
 .header__logo-image {
@@ -156,7 +156,7 @@ address {
   font-size: 27px;
   justify-content: flex-start;
   padding-top: 179px;
-  padding-bottom: 25px;
+  padding-bottom: 24px;
   padding-left: 63px;
 }
 
@@ -240,7 +240,7 @@ address {
   font-weight: 500;
   height: 27px;
   margin-top: 32px;
-  margin-left: 64px;
+  margin-left: 63px;
 }
 
 .lots__look-more-link:hover {
@@ -283,25 +283,22 @@ address {
   text-transform: uppercase;
   font-size: 27px;
   font-weight: 700;
-  padding-bottom: 100px;
+  padding-bottom: 98px;
 }
 
 .about__text {
   font-size: 20px;
   letter-spacing: 0.01em;
-  padding-right: 40px;
-  padding-left: 2px;
 }
 
 .about__text-bottom-paragraph {
   padding-top: 25px;
-  padding-right: 17px;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
-  margin:  179px 47px 88px 52px;
+  margin: 182px 50px 83px 50px;
 }
 
 .footer__address-block {
