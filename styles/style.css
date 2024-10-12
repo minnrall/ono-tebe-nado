@@ -156,7 +156,7 @@ address {
   font-size: 27px;
   justify-content: flex-start;
   padding-top: 179px;
-  padding-bottom: 24px;
+  padding-bottom: 26px;
   padding-left: 63px;
 }
 
@@ -239,7 +239,7 @@ address {
   font-size: 20px;
   font-weight: 500;
   height: 27px;
-  margin-top: 32px;
+  margin-top: 30px;
   margin-left: 63px;
 }
 
@@ -252,7 +252,7 @@ address {
 .about__column {
   display: flex;
   flex-direction: row;
-  margin-top: 180px;
+  margin-top: 182px;
 }
 
 .about__logo {
@@ -283,7 +283,7 @@ address {
   text-transform: uppercase;
   font-size: 27px;
   font-weight: 700;
-  padding-bottom: 98px;
+  padding-bottom: 99px;
 }
 
 .about__text {
@@ -292,13 +292,13 @@ address {
 }
 
 .about__text-bottom-paragraph {
-  padding-top: 25px;
+  padding-top: 24px;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
-  margin: 182px 50px 83px 50px;
+  margin: 181px 50px 83px 50px;
 }
 
 .footer__address-block {
@@ -317,7 +317,7 @@ address {
   font-size: 18px;
   line-height: 22px;
   list-style: none;
-  margin-right: 93px;
+  margin-right: 88px;
 }
 
 .footer__menu-list li:first-child {
