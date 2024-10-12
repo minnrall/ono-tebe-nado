@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin: 93px 0px 95px 0px;
+  margin: 94px 0px 95px 0px;
 }
 
 .header__left-block {
@@ -98,21 +98,20 @@ address {
 .aligned-text {
   display: block;
   line-height: 100px;
-  letter-spacing: 0.3em;
   text-align: left;
   margin-left: 22px;
 }
 
 .aligned-text_center {
   display: block;
-  line-height: 100px;
-  letter-spacing: 37px;
+  line-height: 104px;
+  letter-spacing: 32px;
   text-align: center;
 }
 
 .aligned-text_right {
   display: block;
-  line-height: 100px;
+  line-height: 90px;
   letter-spacing: 29px;
   text-align: right;
 }
@@ -125,8 +124,8 @@ address {
   color: white;
   display: flex;
   align-items: center;
-  margin-top: 134px;
-  margin-left: 50px;
+  margin-top: 140px;
+  margin-left: 48px;
 }
 
 .cover__description-text {
@@ -252,12 +251,12 @@ address {
 .about__column {
   display: flex;
   flex-direction: row;
-  margin-top: 182px;
+  margin-top: 180px;
 }
 
 .about__logo {
   margin-left: 71px;
-  padding: 66px 52px;
+  padding: 64px 52px;
   width: 238px;
   height: 238px;
   background-color: black;
@@ -266,7 +265,6 @@ address {
 
 .about__logo-image {
   position: relative;
-  bottom: 2px;
   right: 4px;
   width: 145px;
 }
@@ -284,6 +282,7 @@ address {
   font-size: 27px;
   font-weight: 700;
   padding-bottom: 99px;
+  padding-top: 2px;
 }
 
 .about__text {
