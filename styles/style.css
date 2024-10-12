@@ -61,7 +61,7 @@ address {
   bottom: 1px;
   z-index: 2;
   min-height: 757px;
-  background-image: url(/images/cover.jpg);
+  background-image: url(./images/cover.jpg);
   background-size: 1100px 757px;
   padding: 172px 30px 50px 30px;
 }
@@ -209,7 +209,7 @@ address {
   justify-content: space-between;
   position: relative;
   height: 563px;
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(./images/card-lot-01.jpg);
   background-size: auto 563px;
 }
 
@@ -219,7 +219,7 @@ address {
   justify-content: space-between;
   position: relative;
   height: 563px;
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url(./images/card-lot-02.jpg);
   background-size: auto 563px;
 }
 
@@ -229,7 +229,7 @@ address {
   flex-direction: column;
   justify-content: space-between;
   height: 563px;
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url(./images/card-lot-03.jpg);
   background-size: auto 563px;
 }
 
