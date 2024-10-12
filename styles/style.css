@@ -257,8 +257,8 @@ address {
 .about__logo {
   margin-left: 71px;
   padding: 64px 52px;
-  width: 238px;
-  height: 238px;
+  width: 240px;
+  height: 240px;
   background-color: black;
   border-radius: 50%;
 }
@@ -282,7 +282,6 @@ address {
   font-size: 27px;
   font-weight: 700;
   padding-bottom: 99px;
-  padding-top: 2px;
 }
 
 .about__text {
@@ -298,7 +297,7 @@ address {
 .footer {
   display: flex;
   justify-content: space-between;
-  margin: 181px 50px 87px 50px;
+  margin: 183px 50px 87px 50px;
 }
 
 .footer__address-block {
