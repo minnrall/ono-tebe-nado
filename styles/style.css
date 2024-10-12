@@ -200,44 +200,31 @@ address {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
   padding: 53px 40px 49px 40px;
+  min-height: 563px;
+  z-index: 2;
 }
 
 .card_type_film {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  position: relative;
-  height: 563px;
   background: url("../images/card-lot-01.jpg") center / cover no-repeat;
-  z-index: 2;
 }
 
 .card_type_book {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  position: relative;
-  height: 563px;
   background: url("../images/card-lot-02.jpg") center / cover no-repeat;
-  z-index: 2;
 }
 
 .card_type_picture {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 563px;
   background: url("../images/card-lot-03.jpg") center / cover no-repeat;
-  z-index: 2;
 }
 
 .lots__look-more-link {
   display: block;
   font-size: 20px;
   font-weight: 500;
-  height: 27px;
   margin-top: 30px;
   margin-left: 63px;
 }
