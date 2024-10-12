@@ -73,8 +73,8 @@ address {
 }
 
 .overlay {
-  width: 100%;
-  height: 100%;
+  width:100%;
+  height:100%;
   position: absolute;
   inset: 0;
   background-color: rgba(0, 0, 0, 0.6);
@@ -301,7 +301,7 @@ address {
 .footer {
   display: flex;
   justify-content: space-between;
-  margin: 185px 50px 91px 50px;
+  margin: 218px 50px 91px 50px;
 }
 
 .footer__address-block {
